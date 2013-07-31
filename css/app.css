@@ -1,6 +1,28 @@
+html{
+	background: url(../images/bg01.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+body{
+	background-color: transparent;
+}
+
 .container{
 	margin: 0 auto;
 	text-align: center;
+}
+
+.page-wrap { 
+	width: 100%; 
+	margin: 50px auto; 
+	padding: 20px; 
+	background: rgba(0, 0, 0, .3);
+	-moz-box-shadow: 0 0 20px black; 
+	-webkit-box-shadow: 0 0 20px black; 
+	box-shadow: 0 0 20px black; 
+	color:white;
 }
 
 .text-center{
@@ -9,7 +31,7 @@
 
 .section1{
 	height:800px;
-	background-color: #EEEEEE;
+	/*background-color: #EEEEEE;*/
 	padding: 20px;
 }
 

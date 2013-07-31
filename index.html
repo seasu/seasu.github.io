@@ -10,8 +10,10 @@
 	<link href="css/app.css" rel="stylesheet">
   </head>
   <body>
+  	<div class="background">
+  	</div>
 	<div class="container">
-		<div class="section1" ng-controller="Section1Ctrl">
+		<div class="section1 page-wrap" ng-controller="Section1Ctrl">
 			<h1 class="head-super">Improvisation </h1>
 			<h1 class="head-super-plus">365</h1>
 		
@@ -26,8 +28,8 @@
 		  	
 		  	<div class="row-fluid text-center">	
 		  		<div>
-		  			<center><h2>77/365</h2></center>
-		  			<progress percent="22" class="progress-striped active"></progress>
+		  			<center><h2>{{finishDays}}/{{totalDays}}={{progressPercent}}</h2></center>
+		  			<progress percent="{{progressPercent}}" class="progress-striped active"></progress>
 		  		</div>
 			</div>
 		</div>
