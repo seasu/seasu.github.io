@@ -1,5 +1,5 @@
 html{
-	background: url(../images/bg01.jpg) no-repeat center center fixed; 
+	background: url(../images/bg03.jpg) no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -9,42 +9,10 @@ body{
 	background-color: transparent;
 }
 
-.container{
-	width:100%;
-	margin: 0 auto;
+footer{
+	margin:100px auto;
 	text-align: center;
-}
-
-.page-wrap { 
-	width: 90%; 
-	margin: 50px auto; 
-	padding: 20px; 
-	background: rgba(0, 0, 0, .3);
-	-moz-box-shadow: 0 0 20px black; 
-	-webkit-box-shadow: 0 0 20px black; 
-	box-shadow: 0 0 20px black; 
-	color:white;
-}
-
-.text-center{
-	
-}
-
-.section-head{
-	height:700px;
-	/*background-color: #EEEEEE;*/
-	padding: 0px;
-}
-
-.section-day1{
-	height:800px;
-	width:100%;
-	padding: 0px;
-	margin: 0px;
-	background: rgba(90,90,90,1.0);
-	-moz-box-shadow: 0 0 10px black; 
-	-webkit-box-shadow: 0 0 10px black; 
-	box-shadow: 0 0 10px black; 
+	color: rgba(250,250,250,0.9);
 }
 
 .head-super{
@@ -59,5 +27,84 @@ body{
 	font-size: 200px;
 	text-align: center;
 }
+
+.improvisation .container{
+	width:100%;
+	margin: 0 auto;
+	text-align: center;
+	height:880px;
+	/*background-color: #EEEEEE;*/
+	padding: 0px;
+}
+
+.improvisation .page-wrap { 
+	width: 90%; 
+	margin: 50px auto; 
+	padding: 20px; 
+	background: rgba(0, 0, 0, .1);
+	-moz-box-shadow: 0 0 20px black; 
+	-webkit-box-shadow: 0 0 20px black; 
+	box-shadow: 0 0 20px black; 
+	color:white;
+	text-shadow: -1px -1px rgba(0,0,0,0.5);
+}
+
+.improvisation .btn-start{
+	display:inline-block; 
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px; 
+	border: 1px solid rgba(250,250,250, 0.9);
+/*	background-color: rgba(250,250,250, 0.5);
+	color: rgba(10,10,10,0.9);
+	-moz-box-shadow: 0 0 5px black; 
+	-webkit-box-shadow: 0 0 5px black; 
+	box-shadow: 0 0 5px black; */
+	margin: 10px;
+}
+
+.improvisation .members{
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+
+.improvisation .member{
+	margin-top:0px;
+	margin-bottom: 0px;
+}
+
+.improvisation .member .img-head{
+	width: 100px;
+	height: 100px;
+	-moz-box-shadow: 0 0 10px black; 
+	-webkit-box-shadow: 0 0 10px black; 
+	box-shadow: 0 0 10px black; 
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.improvisation .member .name{
+	color: white;
+	text-shadow: 1px 1px rgba(0,0,0,0.5);
+}
+
+.improvisation .member .title{
+	color: white;
+	text-shadow: 1px 1px rgba(0,0,0,0.5);
+}
+
+
+.section-day1{
+	height:800px;
+	width:100%;
+	padding: 0px;
+	margin: 0px;
+	background: rgba(90,90,90,1.0);
+	-moz-box-shadow: 0 0 10px black; 
+	-webkit-box-shadow: 0 0 10px black; 
+	box-shadow: 0 0 10px black; 
+}
+
 
 

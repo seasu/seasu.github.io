@@ -9,3 +9,9 @@ var app = angular.module('improvisation365', [
     'improvisation365.controllers',
     'ui.bootstrap']);
 
+app.config(['$routeProvider', function($routeProvider) {
+  $routeProvider.
+      when('/', {templateUrl: 'partials/improvisation.html',   controller: 'ImprovisationCtrl'}).
+      when('/days/:dayId', {templateUrl: 'partials/day.html', controller: 'DayCtrl'}).
+      otherwise({redirectTo: '/'});
+}]);
