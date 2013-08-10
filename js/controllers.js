@@ -31,15 +31,41 @@ angular.module('improvisation365.controllers', [])
     $scope.start = function(){
         // $location.hash('day1');
         // $anchorScroll();
-        $location.path( "/days/1" );
+        $location.path( "/days" );
     };
 })
 
-.controller('DayCtrl', function($scope, $location, $anchorScroll) {
+.controller('DaysCtrl', function($scope, $location, $anchorScroll) {
 	$scope.totalDays = 365;
 	$scope.finishDays = 80;
 	$scope.progressPercent = Math.round(($scope.finishDays/$scope.totalDays)*100);
 	$scope.progressPercent = 22;
+    $scope.days = [
+        {
+            "day":"1",
+            "type":"video",
+            "video":"",
+            "image":"images/bg04.jpg",
+            "musicBy":"",
+            "photoBy":""
+        },
+        {
+            "day":"2",
+            "type":"text",
+            "video":"",
+            "image":"images/bg05.jpg",
+            "musicBy":"",
+            "photoBy":""
+        },
+        {
+            "day":"3",
+            "type":"video",
+            "video":"",
+            "image":"images/bg01.jpg",
+            "musicBy":"",
+            "photoBy":""
+        }
+    ];
 	// alert($scope.progressPercent);
 
 })

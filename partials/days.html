@@ -1,0 +1,11 @@
+<div class="days" ng-controller="DaysCtrl">
+	<div class="container row-fluid" ng-repeat="day in days">	
+	    <div class="daybox span12">
+	    	<img class="bgImage" ng-src="{{day.image}}" />
+	    	<div class="dayNumBox"> 	
+		    	<div class="dayTitle">Day</div><br />
+		    	<div class="dayNum" ng-bind="{{day.day}}"></div>
+	    	</div>
+	    </div>
+	</div>
+</div>

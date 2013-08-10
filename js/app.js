@@ -12,6 +12,6 @@ var app = angular.module('improvisation365', [
 app.config(['$routeProvider', function($routeProvider) {
   $routeProvider.
       when('/', {templateUrl: 'partials/improvisation.html',   controller: 'ImprovisationCtrl'}).
-      when('/days/:dayId', {templateUrl: 'partials/day.html', controller: 'DayCtrl'}).
+      when('/days', {templateUrl: 'partials/days.html', controller: 'DaysCtrl'}).
       otherwise({redirectTo: '/'});
 }]);
