@@ -2,15 +2,14 @@
   	
 	<div class="container">
 		<div class="page-wrap">
-			<h1 class="head-super">Improvisation </h1>
-			<h1 class="head-super-plus">365</h1>
-		
-		  	<h3>
+			<p class="head-super">Improvisation</p>
+			<p class="head-super-plus">365</p>
+		  	<p class="head-desc">
 		  		We provide you the music playing from heart <br /> and photos capture with love.<br />
 		  		365 days, one improvisation per day. <br />
 				<span ng-click="start()" class="text-center btn-start" style="">START</span><br />
 		  		to enjoy.
-		  	</h3>
+		  	</p>
 
 	<!-- 		  	<div class="row-fluid text-center">	
 		  		<div>
@@ -19,8 +18,8 @@
 			</div> -->
 
 		</div>
-		<div class="members row-fluid">	
-			<div class="span3 member" ng-repeat="member in members">
+		<div class="members row">	
+			<div class="col-12 col-sm-6 col-lg-3 member" ng-repeat="member in members">
 				<img class="img-circle img-head" ng-src="{{member.icon}}" ><br />
 				<span class="name" ng-bind="member.name"></span><br />
 				<span class="title" ng-bind="member.title"></span>
