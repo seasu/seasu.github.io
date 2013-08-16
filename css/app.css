@@ -43,6 +43,21 @@ footer{
 	line-height: 16px;
 }
 
+@media (min-width: 321px) and (max-width: 479px) {
+	.head-super{
+		padding:10px;
+		margin:20px;
+		font-size: 48px;
+	}
+	.head-super-plus{
+		margin:20px;
+		font-size: 60px;
+	}
+	.head-desc{
+		font-size: 18px;
+		line-height: 30px; 
+	}
+}
 
 @media (min-width: 480px) and (max-width: 767px) {
 	.head-super{
