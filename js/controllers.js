@@ -44,30 +44,46 @@ angular.module('improvisation365.controllers', [])
         {
             "day":"1",
             "type":"video",
-            "video":"",
-            "image":"images/bg04.jpg",
-            "musicBy":"",
-            "photoBy":""
+            "video":"//www.youtube.com/embed/4r6Ec1WLsyo?list=PLYEWzeblwmTvAt0h6nyTLeykroN1_l22K",
+            "photo":"https://lh4.googleusercontent.com/-GkIXeT8yytM/Ug6YXdVz-LI/AAAAAAAB5cA/lzp8N73c-xQ/w973-h649-no/R1029289.jpg",
+            "musicBy":"Yun-Yen Ho",
+            "musicianIcon": "images/head-yunyenho.jpg",
+            "photoBy":"Chung Dars",
+            "photographerIcon": "images/head-dars.jpg",
+            "tabOn":"photo"
         },
         {
-            "day":"2",
+            "day":"99",
             "type":"text",
-            "video":"",
-            "image":"images/bg05.jpg",
-            "musicBy":"",
-            "photoBy":""
+            "video":"//www.youtube.com/embed/Zy7rUl6dyEY?list=PLYEWzeblwmTvAt0h6nyTLeykroN1_l22K", //先用Day0的
+            "photo":"https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-prn1/536112_622560684426466_1595805616_n.jpg",
+            "musicBy":"Yun-Yen Ho",
+            "musicianIcon": "images/head-yunyenho.jpg",
+            "photoBy":"Daniel Tien",
+            "photographerIcon": "images/head-daniel.jpg",
+            "tabOn":"video"
         },
         {
-            "day":"3",
+            "day":"365",
             "type":"video",
-            "video":"",
-            "image":"images/bg01.jpg",
-            "musicBy":"",
-            "photoBy":""
+            "video":"//www.youtube.com/embed/Xlsgmq6Uubc?list=PLYEWzeblwmTvAt0h6nyTLeykroN1_l22K",
+            "photo":"https://lh4.googleusercontent.com/-Fjm0EQDWavQ/UfblHgqWuSI/AAAAAAABxgw/zOk8T4Asw7U/w1114-h627-no/DSC04445.JPG",
+            "musicBy":"Yun-Yen Ho",
+            "musicianIcon": "images/head-yunyenho.jpg",
+            "photoBy":"Chung Dars",
+            "photographerIcon": "images/head-dars.jpg",
+            "tabOn":"photo"
         }
     ];
 	// alert($scope.progressPercent);
 
+    $scope.switchTo=function(day){
+        if(day.tabOn === "photo"){
+            day.tabOn = "video";
+        }else{
+            day.tabOn = "photo";
+        }
+    };
 })
 
 ;
