@@ -9,7 +9,7 @@ angular.module('improvisation365.controllers', [])
         {
             "icon":"images/head-yunyenho.jpg",
             "name":"Yun-Yen Ho",
-            "title":"Composor & Player"
+            "title":"Musician"
         },
         {   
             "icon":"images/head-seasu.jpg",
